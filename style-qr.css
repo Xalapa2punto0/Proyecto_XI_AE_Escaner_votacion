@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, #e3f2fd 0%, #bbdefb 100%);
+  background: linear-gradient(180deg, #f3e5f5 0%, #e1bee7 100%);
   font-family: "Segoe UI", sans-serif;
-  color: #003366;
+  color: #4a148c;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,21 +17,21 @@ body {
   margin-top: 40px;
   background: white;
   border-radius: 16px;
-  box-shadow: 0 6px 16px rgba(0, 51, 102, 0.2);
+  box-shadow: 0 6px 16px rgba(74, 20, 140, 0.2);
   padding: 20px;
 }
 
 h1 {
   margin-bottom: 20px;
-  color: #005baa;
+  color: #6a1b9a;
   font-weight: bold;
 }
 
 #reader {
   width: 100%;
   height: 320px;
-  background: #002855;
-  border: 3px solid #007bff;
+  background: #4a148c;
+  border: 3px solid #9c27b0;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -39,7 +39,7 @@ h1 {
 .usuario-info {
   margin-top: 15px;
   font-size: 1.1em;
-  color: #004080;
+  color: #6a1b9a;
   font-weight: 500;
 }
 
@@ -49,7 +49,7 @@ h1 {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: #007bff;
+  background: #9c27b0;
   color: white;
   padding: 12px 18px;
   border-radius: 8px;
@@ -76,3 +76,5 @@ h1 {
     transform: translateX(-50%) translateY(20px);
   }
 }
+
+
