@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escáner de Votacion</title>
+  <link rel="stylesheet" href="style-qr.css" />
+
+  <!-- Firebase versión compatible sin módulos -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+  <!-- Librería jsQR -->
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Escáner de Asistencia</h1>
+    <div id="reader"></div>
+    <div id="ultimoUsuario" class="usuario-info">Esperando escaneo...</div>
+  </div>
+
+  <div id="confirmacion" class="confirmacion"></div>
+
+  <script src="escaner.js"></script>
+</body>
+</html>
